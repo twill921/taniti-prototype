@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Lodging</title>
+</head>
+<body>
+
+     <!--Nav Bar -->
+
+     <nav class="navbar navbar-expand-lg bg-body-tertiary bg-dark">
+      <div class="container-fluid justify-content-center bg-dark">
+
+      <a class="navbar-brand mb-0" href="index.html"> <img src="assets/taniti-logo.png" class="d-block w-100" style="max-height: 75px" alt="Taniti Logo"> </a>
+    
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="dining.html">Dining</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="entertainment.html">Entertainment</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link" href="lodging.html">Lodging</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link" href="transportation.html">Transportation</a>
+           <li class="nav-item">
+          <a class="nav-link" href="faq.html">FAQ</a>
+        </li>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<!--Content-->
+
+    <div class="container text-center pt-4 mb-4">
+  <div class="row">
+    <div class="col-md-5 bg-light">
+      <h1>Lodging</h1>
+        <p>Taniti has a wide variety of lodging that ranges from an inexpensive hostel to one large, four-star resort. There are many small, family-owned hotels and a growing number of bed and breakfasts. 
+        All types of lodging are strictly regulated and regularly inspected by the Tanitian government. 
+      </p>
+   <button type="button" class="btn btn-primary mb-3 align" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Book a Lodging Reservation Now!
+  </button>
+  </div>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Book Your Reservation to Taniti Island!</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+      <form>
+  <div class="mb-3">
+    <label for="exampleInputName" class="form-label">Name:</label>
+    <input type="name" class="form-control" id="exampleInputName">
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Email Address:</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+  </div>
+</form>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Submit</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+    
+    <div class="col-md-7 ps-md-5"><img src="assets/hotel2.jpg" class="d-block w-100" style="max-height: 400px; object-fit:cover" alt="Hotel 2">
+  </div>
+  </div>
+</div>
+    
+<!--Footer-->
+    
+<footer class="bg-dark text-white text-center py-3">
+  <p class=>© 2025 Taniti Tourism Board | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
